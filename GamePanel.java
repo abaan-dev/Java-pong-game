@@ -114,7 +114,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
             g.fillRect(0, 0, 800, 560);
 
             g.setFont(new Font("Arial", Font.BOLD, 48));
-            g.setColor(Color.RED);
+            g.setColor(Color.WHITE);
             int msgWidth = g.getFontMetrics().stringWidth(winnerMessage);
             g.drawString(winnerMessage, (800 - msgWidth) / 2, 190);
         }
